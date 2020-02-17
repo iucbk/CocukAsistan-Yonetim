@@ -1,4 +1,4 @@
-# 🌱 Genel
+# Mobil1
 
-👮‍♀️ Ekip kurulunca burası detaylarla doldurulacak
+sandkajsc 
 
