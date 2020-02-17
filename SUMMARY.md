@@ -3,11 +3,10 @@
 * [🤖 İÜCBK - Çocuk Asistanı](README.md)
 * [🤸‍♀️ Ekip Detayı](ekip-detayi.md)
 * [🐾 Uygulama İlerleyişi](uygulama-ilerleyisi.md)
-
-* 📱 Mobil
-  * [Mobil1](mobil/mobil1.md)
-* 💻 Back-End
-  * [Web1](back-end/web1.md)
-* 🤖 Yapay Zeka
-  * [Yapay1](yapay-zeka/yapay1.md)
+* [📱 Mobil](mobil/README.md)
+  * [🌱 Genel](mobil/mobil1.md)
+* [💻 Back-End](back-end/README.md)
+  * [🌱 Genel](back-end/web1.md)
+* [🤖 Yapay Zeka](yapay-zeka/README.md)
+  * [🌱 Genel](yapay-zeka/yapay1.md)
 

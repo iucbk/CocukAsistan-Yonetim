@@ -1,2 +1,4 @@
-# Yapay1
+# 🌱 Genel
+
+👮‍♀️ Ekip kurulunca burası detaylarla doldurulacak
 
