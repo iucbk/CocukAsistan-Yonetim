@@ -6,7 +6,7 @@
 
 * 🧒 Çocukların öğrenme tecrübesini iyileştirmeyi amaçlayan bir mobil \(şimdilik 🤭\) uygulama projesi
 * 📲 Çocukların tabletlerine yerleştirilecek bu uygulama, çocuklara sürekli bilgi katacaktır
-* ✨ Ayrıca da, öğrenme tecrübesini artırmak adına interaktif bir ortam sunacaktır
+* ✨ Ayrıca da, öğrenme tecrübesini iyileştirmek adına interaktif bir ortam sunacaktır
 * 🚀 Türkçe içeriğine katkıda bulunmak adına önemli bir girişim olacaktır
 * 🤓 Sonuç olarak çocuklara yeni bir arkadaş oluşturacağız 
 
