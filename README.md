@@ -25,7 +25,7 @@
 * 🔍 Versiyon Kontrol Sistemi olarak **GitHub** kullanılacaktır
 * 📖 Dokümantasyon için GitBook kullanılabilir
 
-## 🕐 Deadline
+## 🕐 Dead Line
 
 📅 **20 Mart**'a kadar V1 çıkmış olacaktır
 
