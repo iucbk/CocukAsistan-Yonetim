@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🤖 İÜCBK - Çocuk Asistanı](README.md)
+* [🤖 İÜCBK - Çocuk Asistan](README.md)
 * [🤸‍♀️ Ekip Detayı](ekip-detayi.md)
 * [🐾 Uygulama İlerleyişi](uygulama-ilerleyisi.md)
 * [📱 Mobil](mobil/README.md)
