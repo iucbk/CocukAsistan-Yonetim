@@ -3,6 +3,7 @@
 * [🤖 İÜCBK - Çocuk Asistan](README.md)
 * [🤸‍♀️ Ekip Detayı](ekip-detayi.md)
 * [🐾 Uygulama İlerleyişi](uygulama-ilerleyisi.md)
+* [🦋 GitHub Kuralları](github-kurallari.md)
 * [📱 Mobil](mobil/README.md)
   * [🌱 Genel](mobil/mobil1.md)
   * [👩‍⚖️ Kararlar](mobil/kararlar.md)
