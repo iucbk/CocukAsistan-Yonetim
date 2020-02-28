@@ -38,5 +38,5 @@ Bunlar, ekibin olamzsa olmazıdır, daha fazla eleman olursa daha hızlı ilerle
 ### 🤖 Yapay Zeka
 
 * 🕵️‍♀️ Tanınması gereken nesneler için model eğitilecek 
-* 💫 eğitilmiş model mobil uygulamasıyla entegre edilecek
+* 💫 Eğitilmiş model mobil uygulamasıyla entegre edilecek \(👀 ML kit ile olabilir\)
 
