@@ -12,6 +12,7 @@
   * [👩‍⚖️ Kararlar](back-end/kararlar.md)
   * [🏗️ Veritabanı Şeması](back-end/veritabani-semasi.md)
   * [📖 API Dokümanı](back-end/api-dokuemani/README.md)
+    * [📝 Genel Notlar](back-end/api-dokuemani/genel-notlar.md)
     * [👤 User Router](back-end/api-dokuemani/user-router.md)
     * [📃 Quiz Router](back-end/api-dokuemani/quiz-router.md)
 * [🤖 Yapay Zeka](yapay-zeka/README.md)
