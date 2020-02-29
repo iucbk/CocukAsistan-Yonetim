@@ -2,9 +2,12 @@
 
 ## 📃 Alınması Gereken Kararlar
 
-* [ ] 🖼️ Framework \(Node.JS, Laravel, ...\)
-* [ ] 🎨 Veritabanı türü \(SQL, NoSQL, ...\)
-* [ ] 👩‍🚀 Veritabanı platformu \(MySQL, MongoDB, ...\)
+* [ ] 👩‍🚀 Veritabanı platformu \(MySQL, MS-Sql,MongoDB, ...\)
 
 ## 🚀 Alınmış Kararlar
+
+* [ ] 🖼️ Framework: Node.JS
+* [ ] 🎨 Veritabanı türü: SQL
+
+
 

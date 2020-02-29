@@ -10,6 +10,7 @@
 * [💻 Back-End](back-end/README.md)
   * [🌱 Genel](back-end/web1.md)
   * [👩‍⚖️ Kararlar](back-end/kararlar.md)
+  * [🏗️ Veritabanı Şeması](back-end/veritabani-semasi.md)
 * [🤖 Yapay Zeka](yapay-zeka/README.md)
   * [🌱 Genel](yapay-zeka/yapay1.md)
   * [👩‍⚖️ Kararlar](yapay-zeka/kararlar.md)
