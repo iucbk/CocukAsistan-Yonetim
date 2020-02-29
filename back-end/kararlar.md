@@ -6,8 +6,8 @@
 
 ## 🚀 Alınmış Kararlar
 
-* [ ] 🖼️ Framework: Node.JS
-* [ ] 🎨 Veritabanı türü: SQL
+* 🖼️ Framework: Node.JS
+* 🎨 Veritabanı türü: SQL
 
 
 
