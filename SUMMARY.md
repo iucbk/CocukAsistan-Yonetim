@@ -7,6 +7,7 @@
 * [📱 Mobil](mobil/README.md)
   * [🌱 Genel](mobil/mobil1.md)
   * [👩‍⚖️ Kararlar](mobil/kararlar.md)
+  * [👩‍🎨UI Tasarımı](mobil/ui-tasarimi.md)
 * [💻 Back-End](back-end/README.md)
   * [🌱 Genel](back-end/web1.md)
   * [👩‍⚖️ Kararlar](back-end/kararlar.md)
