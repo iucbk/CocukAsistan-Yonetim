@@ -1,4 +1,4 @@
-# 👩‍🎨UI Tasarımı
+# 👩‍🎨 UI Tasarımı
 
 ## 🐾 Genel İlerleyiş Taslağı
 
