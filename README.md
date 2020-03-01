@@ -27,5 +27,5 @@
 
 ## 🕐 Deadline
 
-📅 **20 Mart**'a kadar V1 çıkmış olacaktır
+📅 **30 Mart**'a kadar V1 çıkmış olacaktır
 
