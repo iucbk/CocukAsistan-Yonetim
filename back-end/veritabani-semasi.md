@@ -1,8 +1,8 @@
 # 🏗️ Veritabanı Şeması
 
-![](../.gitbook/assets/db.png)
+![](../.gitbook/assets/db%20%281%29.png)
 
-{% file src="../.gitbook/assets/db \(1\).pdf" caption="👀 DB Şeması" %}
+{% file src="../.gitbook/assets/db \(2\).pdf" caption="👀 DB Şeması" %}
 
 ## 🧱 Temel entity'ler:
 
