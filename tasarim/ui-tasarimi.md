@@ -1,18 +1,10 @@
-# 👩‍🎨 UI Tasarımı
-
-## 📝 Notlar
-
-* 👷‍♀️ Logolar ve diğer çizilmiş öğeler `.svg` formatında olacak
-
-## 🐾 Genel İlerleyiş Taslağı
-
-![](../.gitbook/assets/ui_taslak.jpeg)
-
-## 🖼️ Logo
-
-![](../.gitbook/assets/logo.jpeg)
+# ✨ Arayüzler
 
 ## ✨ Arayüzler
 
-![](../.gitbook/assets/uisample.jpeg)
+![](../.gitbook/assets/whatsapp-image-2020-03-04-at-5.41.16-pm.jpeg)
+
+![](../.gitbook/assets/whatsapp-image-2020-03-04-at-5.41.16-pm-1.jpeg)
+
+![](../.gitbook/assets/whatsapp-image-2020-03-04-at-5.41.15-pm.jpeg)
 
