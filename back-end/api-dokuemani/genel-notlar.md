@@ -10,3 +10,23 @@
 }
 ```
 
+## 💌 Request yapısı
+
+* 👮‍♀️ `/login` ve `/signup` hariç bütün request'lerin `header`'ında `token` anahtarı olmalı
+* 👷‍♀️ `token`'lar login işleminin response'u ile gönderiliyor
+
+### 👩‍⚖️ İlgili response'lar
+
+```javascript
+{
+  "code": 422,
+  "message": "Invalid token"
+}
+```
+
+## 📢 Back-end Ekibine Yönelik Not
+
+* ➰ Token _decode_ etme işlemi middleware olarak gerçekleştirilmekte
+* 🗃️ _Decode_ edilen token `req.body.decoded_id` alanı altında tutulmakta
+* 🔑 O anahtar `user_id`'ye denk gelmekte
+
