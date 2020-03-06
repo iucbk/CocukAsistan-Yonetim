@@ -8,7 +8,7 @@ https://cocukasistan.azurewebsites.net
 
 ## 🚪 Login
 
-{% api-method method="post" host="URL" path="/login" %}
+{% api-method method="post" host="URL" path="/user/login" %}
 {% api-method-summary %}
 Login Method
 {% endapi-method-summary %}
