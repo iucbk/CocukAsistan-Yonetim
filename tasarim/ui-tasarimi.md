@@ -1,17 +1,10 @@
 # ✨ Arayüzler
 
-![](../.gitbook/assets/ui_login.jpeg)
+## ✨ Arayüzler
 
-![](../.gitbook/assets/ui_signup.jpeg)
+![](../.gitbook/assets/whatsapp-image-2020-03-04-at-5.41.16-pm.jpeg)
 
-![](../.gitbook/assets/ui_kategori.jpeg)
+![](../.gitbook/assets/whatsapp-image-2020-03-04-at-5.41.16-pm-1.jpeg)
 
-![](../.gitbook/assets/ui_quiz.jpeg)
-
-![](../.gitbook/assets/ui_ai.jpeg)
-
-## 📖 Referanslar
-
-* [School vector created by pikisuperstar - www.freepik.com](https://www.freepik.com/free-photos-vectors/school)
-* [www.flaticon.com](https://www.flaticon.com/authors/freepik)
+![](../.gitbook/assets/whatsapp-image-2020-03-04-at-5.41.15-pm.jpeg)
 

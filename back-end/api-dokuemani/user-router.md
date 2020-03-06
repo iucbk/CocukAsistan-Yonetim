@@ -1,8 +1,14 @@
 # 👤 User Router
 
+## 🔗 URL
+
+```text
+https://cocukasistan.azurewebsites.net
+```
+
 ## 🚪 Login
 
-{% api-method method="post" host="" path="/login" %}
+{% api-method method="post" host="URL" path="/login" %}
 {% api-method-summary %}
 Login Method
 {% endapi-method-summary %}
