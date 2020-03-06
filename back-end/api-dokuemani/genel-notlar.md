@@ -30,3 +30,11 @@
 * 🗃️ _Decode_ edilen token `req.body.decoded_id` alanı altında tutulmakta
 * 🔑 O anahtar `user_id`'ye denk gelmekte
 
+### 🔑 Token Alma
+
+![](../../.gitbook/assets/image.png)
+
+### 🅾 Token Kullanma \(`header`'da\)
+
+![](../../.gitbook/assets/image%20%282%29.png)
+
