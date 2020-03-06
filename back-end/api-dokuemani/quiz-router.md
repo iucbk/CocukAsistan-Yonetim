@@ -6,11 +6,9 @@
 https://cocukasistan.azurewebsites.net
 ```
 
-## 🎨 Quiz Kategorilerini Çekme
-
 {% api-method method="get" host="" path="URL/quiz/getCategories" %}
 {% api-method-summary %}
-Get Categories Method
+🎨 GetCategories
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -33,6 +31,7 @@ Quizlerin kategorilerini çekme metodu
 {% endapi-method-response-example-description %}
 
 ```javascript
+// URL/quiz/getCategories
 {
   "code": 200,
   "message": "Categories fetched successfully",
@@ -48,6 +47,62 @@ Quizlerin kategorilerini çekme metodu
     {
       "id": 3,
       "name": "Sebzeler"
+    }
+  ]
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="URL/quiz/" path="getById?quiz\_id=<quiz\_id>" %}
+{% api-method-summary %}
+🆔 GetQuizById
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Gönderilen `quiz_id` parametresine göre quiz çekme metodu
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="token" type="string" required=true %}
+🔏 Login token'ı
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="quiz\_id" type="integer" required=true %}
+🆔 İstenen quizin ID'si
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+✔️ Başarı durumu
+{% endapi-method-response-example-description %}
+
+```javascript
+// URL/quiz/getById?quiz_id=2
+{
+  "code": 200,
+  "message": "Quiz fetched successfully",
+  "data": [
+    {
+      "quiz_id": 2,
+      "quiz_title": "İkinci Quiz",
+      "question_id": 1,
+      "question_content": "Soru metni"
+    },
+    {
+      "quiz_id": 2,
+      "quiz_title": "İkinci Quiz",
+      "question_id": 2,
+      "question_content": "Soru içeriği"
     }
   ]
 }
