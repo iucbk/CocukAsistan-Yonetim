@@ -56,7 +56,7 @@ Quizlerin kategorilerini çekme metodu
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="URL/quiz/" path="getById?quiz\_id=<quiz\_id>" %}
+{% api-method method="get" host="URL/quiz/" path="getById?quiz\_id=<quiz\_id>" %}
 {% api-method-summary %}
 🆔 GetQuizById
 {% endapi-method-summary %}
@@ -95,14 +95,16 @@ Gönderilen `quiz_id` parametresine göre quiz çekme metodu
     {
       "quiz_id": 2,
       "quiz_title": "İkinci Quiz",
-      "question_id": 1,
-      "question_content": "Soru metni"
+      "question_content": "Soru metni",
+      "options": "Seçenek1\\nSeçenek2\\nSeçenek3",
+      "true_option": 1
     },
     {
       "quiz_id": 2,
       "quiz_title": "İkinci Quiz",
-      "question_id": 2,
-      "question_content": "Soru içeriği"
+      "question_content": "Soru içeriği",
+      "options": "Seçenek1\\nSeçenek2\\nSeçenek3",
+      "true_option": 2
     }
   ]
 }
