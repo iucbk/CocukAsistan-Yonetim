@@ -6,7 +6,7 @@
 https://cocukasistan.azurewebsites.net
 ```
 
-{% api-method method="get" host="" path="URL/quiz/getCategories" %}
+{% api-method method="get" host="URL" path="/quiz/getCategories" %}
 {% api-method-summary %}
 🎨 GetCategories
 {% endapi-method-summary %}
@@ -56,7 +56,7 @@ Quizlerin kategorilerini çekme metodu
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="URL/quiz/" path="getById?quiz\_id=<quiz\_id>" %}
+{% api-method method="get" host="URL" path="/quiz/getById?quiz\_id=<quiz\_id>" %}
 {% api-method-summary %}
 🆔 GetQuizById
 {% endapi-method-summary %}

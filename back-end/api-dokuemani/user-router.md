@@ -6,9 +6,11 @@
 https://cocukasistan.azurewebsites.net
 ```
 
+## 🚪 Login
+
 {% api-method method="post" host="URL" path="/user/login" %}
 {% api-method-summary %}
-🚪 Login Metodu
+Login Method
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -67,66 +69,6 @@ Giriş yapma metodu
 {
   "code": 500,
   "message": "An error occured while creating token"
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="post" host="URL" path="/user/signup" %}
-{% api-method-summary %}
-👤 Signup Metodu
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Yeni kullanıcı ekleme metodu
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="email" type="string" required=true %}
-📧 Kullanıcı maili
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="full\_name" type="string" required=true %}
-🆎 Kullanıcının full ismi
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="password" type="string" required=true %}
-🔏 Kullanıcı şifresi
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-✔️ Başarı durumu
-{% endapi-method-response-example-description %}
-
-```javascript
-// URL/user/signup
-{
-    "code": 200,
-    "message": "Registered in successfully",
-    "data": null
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=503 %}
-{% api-method-response-example-description %}
-✖️Veri eklenirken hata oluşma durumu
-{% endapi-method-response-example-description %}
-
-```javascript
-// URL/user/signup
-{
-    "code": 503,
-    "message": "An error occured while inserting user",
-    "data": null
 }
 ```
 {% endapi-method-response-example %}
