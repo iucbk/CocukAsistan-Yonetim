@@ -16,7 +16,7 @@
 
 ## 🌱 Branch Adlandırma Kuralı
 
-* 📍 Bütün iş paketleri GitHub'ta _issue_ olarak _mileston_  yapısı altında durmakta
+* 📍 Bütün iş paketleri GitHub'ta _issue_ olarak _milestone_ yapısı altında durmakta
 * 👨‍⚖️ Branch ismini `<milestone_ismi>/<issue'yü_özetleyen_başlık>` şeklinde yapın
 
 ## 🤸‍♀️ Hızlı MarkDown Notları
