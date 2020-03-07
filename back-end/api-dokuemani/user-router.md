@@ -60,13 +60,20 @@ Giriş yapma metodu
 
 {% api-method-response-example httpCode=500 %}
 {% api-method-response-example-description %}
-✖️ Token oluşturma hatası
+✖️ Token oluşturma hatası  
+✖️ deşifreleme hatası  
+- 👮‍♂️ İki durumda da server hatası olduğu için aynı kod kullanılmıştır
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
   "code": 500,
   "message": "An error occured while creating token"
+}
+
+{
+    "code": 500,
+    "message": "An error occured while comparing password"
 }
 ```
 {% endapi-method-response-example %}
