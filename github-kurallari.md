@@ -26,7 +26,7 @@
 
 ### 🎈 Başlıklar
 
-```csharp
+```markup
 # başlık     (h1)
 ## başlık    (h2)
 ### başlık   (h3)
@@ -35,7 +35,7 @@
 
 ### 📃 Listeler
 
-```graphql
+```markup
 Sırasız liste
 - madde1
 - madde2
@@ -54,13 +54,13 @@ Checklist
 
 ### 🔗 Bağlantılar
 
-```graphql
+```markup
 [Başlık](https://github.com/)
 ```
 
 ### 👨‍💻 Kod Parçacığı
 
-```graphql
+```markup
 Çok satırlı kod
 ```
 kod
