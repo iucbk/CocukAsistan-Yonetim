@@ -61,6 +61,14 @@ Checklist
 ### 👨‍💻 Kod Parçacığı
 
 ```graphql
+Çok satırlı kod
+```
+kod
+kod
+kod
+```
 
+Inline kod
+`kod`
 ```
 
