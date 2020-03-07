@@ -14,8 +14,8 @@
 ## 🎤 Açıklama
 
 * 👮‍♀️ Object yapısı ve fonksiyonelliği User, Quiz ve Tip yapılarından tamamen bağımsızdır
-* 🗃️ Kullanıcının yaptığı quizler solvedQuiz tablosu \(ara tablo olarak\) aracıyla tutulmakta
-* 🗃️ Kullanıcının gördüğü tip'ler seenTip tablosu \(ara tablo olarak\) aracıyla tutulmakta
+* 🗃️ Kullanıcının yaptığı quizler solvedQuiz tablosu \(ara tablo olarak\) aracılığıyla tutulmakta
+* 🗃️ Kullanıcının gördüğü tip'ler seenTip tablosu \(ara tablo olarak\) aracılığıyla tutulmakta
 
  
 

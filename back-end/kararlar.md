@@ -2,8 +2,7 @@
 
 ## 📃 Alınması Gereken Kararlar
 
-* [ ] 💻 Deployment platformu tekrar gözden geçirilecek
-
+* 
 ## 🚀 Alınmış Kararlar
 
 * 🖼️ Framework: Node.JS
