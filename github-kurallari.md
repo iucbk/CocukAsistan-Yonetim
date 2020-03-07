@@ -19,3 +19,48 @@
 * 📍 Bütün iş paketleri GitHub'ta _issue_ olarak _mileston_  yapısı altında durmakta
 * 👨‍⚖️ Branch ismini `<milestone_ismi>/<issue'yü_özetleyen_başlık>` şeklinde yapın
 
+## 🤸‍♀️ Hızlı MarkDown Notları
+
+* 👮‍♀️ _Pull request_ ve _issue_'lerde markdown formatı kullanılmakta
+* ✨ MarkDown yazım kurallarına uymak PR'ları ve issue'leri daha anlaşılır hale getirir
+
+### 🎈 Başlıklar
+
+```csharp
+# başlık     (h1)
+## başlık    (h2)
+### başlık   (h3)
+#### başlık  (h4)
+```
+
+### 📃 Listeler
+
+```graphql
+Sırasız liste
+- madde1
+- madde2
+- madde3
+
+Sıralı liste
+1. madde1
+2. madde2
+3. madde3
+
+Checklist
+- [ ] madde1
+- [ ] madde2
+- [ ] madde3
+```
+
+### 🔗 Bağlantılar
+
+```graphql
+[Başlık](https://github.com/)
+```
+
+### 👨‍💻 Kod Parçacığı
+
+```graphql
+
+```
+
