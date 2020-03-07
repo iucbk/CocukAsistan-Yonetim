@@ -61,7 +61,7 @@ Giriş yapma metodu
 {% api-method-response-example httpCode=500 %}
 {% api-method-response-example-description %}
 ✖️ Token oluşturma hatası  
-✖️ deşifreleme hatası  
+✖️ Deşifreleme hatası  
 - 👮‍♂️ İki durumda da server hatası olduğu için aynı kod kullanılmıştır
 {% endapi-method-response-example-description %}
 
