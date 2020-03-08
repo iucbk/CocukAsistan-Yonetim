@@ -77,19 +77,6 @@ Giriş yapma metodu
 }
 ```
 {% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=503 %}
-{% api-method-response-example-description %}
-🗃️ Veritabnı hatası
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "code": 503,
-    "message": "Database error"
-}
-```
-{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}

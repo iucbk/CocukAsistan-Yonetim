@@ -12,6 +12,7 @@
     * [📝 Genel Notlar](back-end/api-dokuemani/genel-notlar.md)
     * [👤 User Router](back-end/api-dokuemani/user-router.md)
     * [📃 Quiz Router](back-end/api-dokuemani/quiz-router.md)
+    * [📦 Object Router](back-end/api-dokuemani/object-router.md)
 * [📱 Mobil](mobil/README.md)
   * [🌱 Genel](mobil/mobil1.md)
   * [👩‍⚖️ Kararlar](mobil/kararlar.md)
