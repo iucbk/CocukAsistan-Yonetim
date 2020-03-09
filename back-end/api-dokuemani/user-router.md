@@ -166,7 +166,7 @@ Yeni kullanıcı ekleme metodu
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="URL" path="/user/updatePassword" %}
+{% api-method method="post" host="URL" path="/user/updatePassword" %}
 {% api-method-summary %}
 🔒 Şifre Güncelleme Metodu
 {% endapi-method-summary %}
@@ -182,6 +182,12 @@ Yeni kullanıcı ekleme metodu
 🔒 Login token'ı
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="new\_password " type="string" required=true %}
+🔏 Yeni şifre
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
