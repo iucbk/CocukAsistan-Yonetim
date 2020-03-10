@@ -12,7 +12,7 @@
 
 ## 💌 Request yapısı
 
-* 👮‍♀️ `/login` ve `/signup` hariç bütün request'lerin `header`'ında `token` anahtarı olmalı
+* 👮‍♀️ `/user/login` ve `/user/signup` hariç bütün request'lerin `header`'ında `token` anahtarı olmalı
 * 👷‍♀️ `token`'lar login işleminin response'u ile gönderiliyor
 
 ### 👩‍⚖️ İlgili response'lar
@@ -23,6 +23,14 @@
   "message": "Invalid token"
 }
 ```
+
+## 📡 RouteYapısı
+
+| 🚩 Yol | 📃 Açıklama |
+| :--- | :--- |
+| `/user/<işlem>` | Kullanıcı işlemleri  |
+| `/quiz/<işlem>` | Quiz işlemleri |
+| `/object/<işlem>` | Algılanacak objelerin işlemleri |
 
 ## 📢 Back-end Ekibine Yönelik Not
 

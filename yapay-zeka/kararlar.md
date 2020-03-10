@@ -1,4 +1,4 @@
-# 👩‍⚖️ Kararlar
+# ��‍⚖️ Kararlar
 
 ## 📃 Alınması Gerken Kararlar
 
