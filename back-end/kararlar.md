@@ -5,11 +5,13 @@
 * 
 ## 🚀 Alınmış Kararlar
 
-* 🖼️ Framework: Node.JS
-* 🎨 Veritabanı türü: SQL
-* 👩‍🚀 Veritabanı platformu: MySQL
-* 💻 Deployment platfromu: Heroku
-* 🗃️ Veritabanı hosting: Azure
+| 🎈 Konu | 👨‍⚖️ Seçim |
+| :--- | :--- |
+| 🖼️ Framework | Node.JS |
+| 🎨 Veritabanı Türü | SQL |
+| 👩‍🚀 Veritabanı platformu | MySQL |
+| 💻 Deployment platfromu | Heroku |
+| 🗃️ Veritabanı hosting | Azure |
 
 
 
