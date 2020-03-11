@@ -3,7 +3,7 @@
 ## 🔗 URL
 
 ```text
-https://cocukasistan.herokuapp.com/
+https://cocukasistan.azurewebsites.net
 ```
 
 {% api-method method="post" host="URL" path="/user/login" %}
