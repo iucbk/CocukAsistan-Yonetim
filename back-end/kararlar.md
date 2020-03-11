@@ -2,16 +2,14 @@
 
 ## 📃 Alınması Gereken Kararlar
 
-* 
+* [ ] 💻 Deployment platformu tekrar gözden geçirilecek
+
 ## 🚀 Alınmış Kararlar
 
-| 🎈 Konu | 👨‍⚖️ Seçim |
-| :--- | :--- |
-| 🖼️ Framework | Node.JS |
-| 🎨 Veritabanı Türü | SQL |
-| 👩‍🚀 Veritabanı platformu | MySQL |
-| 💻 Deployment platfromu | Heroku |
-| 🗃️ Veritabanı hosting | Azure |
+* 🖼️ Framework: Node.JS
+* 🎨 Veritabanı türü: SQL
+* 👩‍🚀 Veritabanı platformu: MySQL
+* 💻 Deployment platfromu: Azure 
 
 
 

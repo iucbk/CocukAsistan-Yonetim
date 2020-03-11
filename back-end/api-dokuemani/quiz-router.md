@@ -3,7 +3,7 @@
 ## 🔗 URL
 
 ```text
-https://cocukasistan.azurewebsites.net
+https://cocukasistan.herokuapp.com/
 ```
 
 {% api-method method="get" host="URL" path="/quiz/getCategories" %}
