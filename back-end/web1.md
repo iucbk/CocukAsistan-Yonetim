@@ -4,6 +4,6 @@
 
 ## 🔗 GitHub Linki
 
-* 👀 [Burada ](https://github.com/asmaamirkhan/CocukAsistan-Web)
+* 👀 [Burada ](https://github.com/ysumut/CocukAsistan-Web)
 * 🙄 Şuan private 
 

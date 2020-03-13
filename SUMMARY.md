@@ -21,5 +21,5 @@
   * [✨ Arayüzler](tasarim/ui-tasarimi.md)
 * [🤖 Yapay Zeka](yapay-zeka/README.md)
   * [🌱 Genel](yapay-zeka/yapay1.md)
-  * [��‍⚖️ Kararlar](yapay-zeka/kararlar.md)
+  * [👩‍⚖️ Kararlar](yapay-zeka/kararlar.md)
 

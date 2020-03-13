@@ -1,12 +1,14 @@
-# ��‍⚖️ Kararlar
+# 👩‍⚖️ Kararlar
 
 ## 📃 Alınması Gerken Kararlar
 
 * [ ] 🕵️‍♀️ Tanınacak nesneler
-* [ ] 🤔 Gidiş classification tabanlı mı detection tabanlı mı gidecek?
-* [ ] 👩‍🏫 Eğitilecek object detection modeli 
+* [ ] 👩‍🏫 Eğitilecek classification modeli 
 
 ## 🚀 Alınmış Kararlar
+
+* ✔️ Gidiş classification tabanlı olacaktır
+* 👩‍🏫 TensorflowLite modeli yeniden eğitilecek
 
 
 
