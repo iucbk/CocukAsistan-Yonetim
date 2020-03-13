@@ -3,7 +3,7 @@
 ## 🔗 URL
 
 ```text
-https://cocukasistan.azurewebsites.net
+https://cocukasistan.herokuapp.com/
 ```
 
 {% api-method method="post" host="URL" path="/user/login" %}
@@ -129,23 +129,36 @@ Yeni kullanıcı ekleme metodu
 ```javascript
 // URL/user/signup
 {
-    "code": 200,
-    "message": "Registered in successfully",
-    "data": null
+"code": 200,
+"message": "The mail was sent in successfully",
+"data": null
 }
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=500 %}
 {% api-method-response-example-description %}
-✖️ Şifreyi şifrelerken hata oluşma durumu
+✖️ Kullanıcı veritabanında mevcut hatası  
+✖️ Token oluşturma hatası  
+✖️ Mail gönderme hatası
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
 "code": 500,
-"message": "An error occured while hashing password"
+"message": "User is exist"
 }
+-------------------------
+{
+"code": 500,
+"message": "An error occured while creating token"
+}
+-------------------------
+{
+"code": 500,
+"message": "An error occured while sending mail"
+}
+
 ```
 {% endapi-method-response-example %}
 
@@ -157,8 +170,8 @@ Yeni kullanıcı ekleme metodu
 ```javascript
 // URL/user/signup
 {
-    "code": 503,
-    "message": "An error occured while inserting user"
+"code": 503,
+"message": "Database error"
 }
 ```
 {% endapi-method-response-example %}
