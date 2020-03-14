@@ -3,11 +3,11 @@
 ## 📃 Alınması Gerken Kararlar
 
 * [ ] 🕵️‍♀️ Tanınacak nesneler
-* [ ] 👩‍🏫 Eğitilecek classification modeli 
+* [ ] 👩‍🏫 Eğitilecek detection modeli 
 
 ## 🚀 Alınmış Kararlar
 
-* ✔️ Gidiş classification tabanlı olacaktır
+* ✔️ Gidiş **detection** tabanlı olacaktır
 * 👩‍🏫 TensorflowLite modeli yeniden eğitilecek
 
 
