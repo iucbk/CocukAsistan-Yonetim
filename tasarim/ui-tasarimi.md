@@ -2,8 +2,6 @@
 
 ![](../.gitbook/assets/giris.jpeg)
 
-![](../.gitbook/assets/main.jpeg)
-
 ![](../.gitbook/assets/splash.jpeg)
 
 ![](../.gitbook/assets/quiz.jpeg)
