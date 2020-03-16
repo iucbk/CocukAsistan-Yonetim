@@ -72,3 +72,9 @@ Inline kod
 `kod`
 ```
 
+### 🖼️ Resim
+
+```markup
+![](/göstermek/istediğiniz/resmin/yolu)
+```
+
