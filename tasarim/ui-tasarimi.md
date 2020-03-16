@@ -1,6 +1,12 @@
 # ✨ Arayüzler
 
-![](../.gitbook/assets/ui_login.jpeg)
+![](../.gitbook/assets/giris.jpeg)
+
+![](../.gitbook/assets/main.jpeg)
+
+![](../.gitbook/assets/splash.jpeg)
+
+![](../.gitbook/assets/quiz.jpeg)
 
 ![](../.gitbook/assets/ui_signup.jpeg)
 
