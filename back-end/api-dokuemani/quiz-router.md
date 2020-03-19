@@ -116,7 +116,7 @@ Gönderilen `quiz_id` parametresine göre quiz çekme metodu
 
 {% api-method method="get" host="URL/" path="getByCategory?category\_id=<category\_id>" %}
 {% api-method-summary %}
-🎨 GetByCategory
+🧮 GetByCategory
 {% endapi-method-summary %}
 
 {% api-method-description %}
