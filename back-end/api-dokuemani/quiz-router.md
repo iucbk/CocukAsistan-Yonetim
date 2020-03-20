@@ -52,6 +52,19 @@ Quizlerin kategorilerini çekme metodu
 }
 ```
 {% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=503 %}
+{% api-method-response-example-description %}
+🗃️ Veritabanı hatası 
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "code": 503,
+    "message": "Database error"
+}
+```
+{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
@@ -107,6 +120,19 @@ Gönderilen `quiz_id` parametresine göre quiz çekme metodu
       "true_option": 2
     }
   ]
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=302 %}
+{% api-method-response-example-description %}
+🗃️ Veri tabanı hatası
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "code": 503,
+    "message": "Database error"
 }
 ```
 {% endapi-method-response-example %}
