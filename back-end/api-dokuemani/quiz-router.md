@@ -230,7 +230,7 @@ Gönderilen `quiz_id` parametresine göre quiz çekme metodu
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="quiz\_score" type="integer" required=true %}
-🔢 Quizin sonucu
+🔢 Quizin skoru
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="quiz\_id" type="integer" required=true %}
