@@ -33,22 +33,25 @@ Quizlerin kategorilerini çekme metodu
 ```javascript
 // URL/quiz/getCategories
 {
-  "code": 200,
-  "message": "Categories fetched successfully",
-  "data": [
-    {
-      "id": 1,
-      "name": "Hayvanlar"
-    },
-    {
-      "id": 2,
-      "name": "Meyveler"
-    },
-    {
-      "id": 3,
-      "name": "Sebzeler"
-    }
-  ]
+    "code": 200,
+    "message": "Categories fetched successfully",
+    "data": [
+        {
+            "id": 1,
+            "name": "Hayvanlar",
+            "isAllSolved": 1
+        },
+        {
+            "id": 2,
+            "name": "Meyveler",
+            "isAllSolved": 0
+        },
+        {
+            "id": 3,
+            "name": "Sebzeler",
+            "isAllSolved": 0
+        }
+    ]
 }
 ```
 {% endapi-method-response-example %}
@@ -187,6 +190,66 @@ Gönderilen `quiz_id` parametresine göre quiz çekme metodu
       "isSolved": 0
     }
   ]
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=503 %}
+{% api-method-response-example-description %}
+✖️ Veri tabanı hatası oluşma durumu
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "code": 503,
+    "message": "Database error"
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="URL" path="/quiz/solvedQuiz" %}
+{% api-method-summary %}
+✔️ SolvedQuiz
+{% endapi-method-summary %}
+
+{% api-method-description %}
+- 🗃️ Bir quiz çözüldükten sonra veritabanında kayda alma metodu  
+- 🚀 Bu metod, yeni kayıt eklemek ve önceden eklenen kaydı güncellemek için kullanılmakta 
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="token" type="string" required=true %}
+🔏 Login token'ı
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="quiz\_score" type="integer" required=true %}
+🔢 Quizin sonucu
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="quiz\_id" type="integer" required=true %}
+🆔 Çözülmüş quizin ID'si
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+✔️ Başarı durumu
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "code": 200,
+    "message": "Quiz sent successfully",
+    "data": null
 }
 ```
 {% endapi-method-response-example %}
