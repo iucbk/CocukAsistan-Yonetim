@@ -217,7 +217,7 @@ Gönderilen `quiz_id` parametresine göre quiz çekme metodu
 
 {% api-method-description %}
 - 🗃️ Bir quiz çözüldükten sonra veritabanında kayda alma metodu  
-- 🚀 Bu metod, yeni kayıt eklemek ve önceden eklenen kaydı güncellemek için kullanılmakta 
+- 🚀 Bu metod, yeni kayıt eklemek ve önceden eklenen kaydın skorunu güncellemek için kullanılmakta 
 {% endapi-method-description %}
 
 {% api-method-spec %}
