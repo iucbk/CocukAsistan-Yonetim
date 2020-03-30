@@ -23,7 +23,7 @@
 ### 👩‍💼 Yönetim Kısmı
 
 * 🔍 Versiyon Kontrol Sistemi olarak **GitHub** kullanılacaktır
-* 📖 Dokümantasyon için GitBook kullanılabilir
+* 📖 Dokümantasyon için **GitBook** kullanılabilir
 
 ## 🕐 Deadline
 
