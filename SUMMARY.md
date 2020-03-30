@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🤖 İÜCBK - Çocuk Asistan](README.md)
+* [🧐 İÜCBK - Minik Kaşif](README.md)
 * [🤸‍♀️ Ekip Detayı](ekip-detayi.md)
 * [🐾 Uygulama İlerleyişi](uygulama-ilerleyisi.md)
 * [🦋 GitHub Kuralları](github-kurallari.md)

@@ -1,4 +1,4 @@
-# 🤖 İÜCBK - Çocuk Asistan
+# 🧐 İÜCBK - Minik Kaşif
 
 ## 👩‍🏫 Proje Tanıtımı 
 
