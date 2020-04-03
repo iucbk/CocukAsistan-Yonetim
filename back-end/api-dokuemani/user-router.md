@@ -247,3 +247,55 @@ Yeni kullanıcı ekleme metodu
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="URL" path="/user/getInfo" %}
+{% api-method-summary %}
+🔸 getInfo Metodu
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Gelen token ile kullanıcı mailini ve ismini çekme metodu
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="token" type="string" required=true %}
+🔒 signup linkindeki token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+✔️ Başarı durumu
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "code": 200,
+    "message": "Success",
+    "data": {
+        "full_name": "Umut Bulak",
+        "email": "umut_aslan95@hotmail.com"
+    }
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=422 %}
+{% api-method-response-example-description %}
+✖️ Geçersiz token durumu
+{% endapi-method-response-example-description %}
+
+```
+{
+    "code": 422,
+    "message": "Invalid token"
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
