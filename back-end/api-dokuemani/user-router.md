@@ -39,6 +39,8 @@ Giriş yapma metodu
   "code": 200,
   "message": "Logged in successfully",
   "data": {
+    "email": "umut_aslan70@hotmail.com",
+    "full_name": "Umut Bulak",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTU4MzQwNTEyNn0.0HwBhXl6utA5tAD4ryu9Mj1lHuW-PgcmyYJOvERPwkA"
   }
 }
