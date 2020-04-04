@@ -103,31 +103,61 @@ Gönderilen `quiz_id` parametresine göre quiz çekme metodu
 {% endapi-method-response-example-description %}
 
 ```javascript
-// URL/quiz/getById?quiz_id=2
+// URL/quiz/getById?quiz_id=1
 {
-  "code": 200,
-  "message": "Quiz fetched successfully",
-  "data": [
-    {
-      "quiz_id": 2,
-      "quiz_title": "İkinci Quiz",
-      "question_content": "Soru metni",
-      "options": "Seçenek1\\nSeçenek2\\nSeçenek3",
-      "true_option": 1
-    },
-    {
-      "quiz_id": 2,
-      "quiz_title": "İkinci Quiz",
-      "question_content": "Soru içeriği",
-      "options": "Seçenek1\\nSeçenek2\\nSeçenek3",
-      "true_option": 2
+    "code": 200,
+    "message": "Quiz fetched successfully",
+    "data": {
+        "quiz_id": 1,
+        "quiz_title": "İlk Quiz",
+        "questions": [
+            {
+                "question_content": "Soru",
+                "true_option": 1,
+                "options": [
+                    "Seçenek1",
+                    "Seçenek2",
+                    "Seçenek3"
+                ]
+            },
+            {
+                "question_content": "Başka Soru",
+                "true_option": 3,
+                "options": [
+                    "Seçenek1",
+                    "Seçenek2",
+                    "Seçenek3"
+                ]
+            },
+            {
+                "question_content": "Bir soru",
+                "true_option": 1,
+                "options": [
+                    "Seçenek1",
+                    "Seçenek2",
+                    "Seçenek3"
+                ]
+            }
+        ]
     }
-  ]
 }
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=302 %}
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+🔸 Quiz bulunamadı hatası
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "code": 404,
+    "message": "Quiz not found"
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=503 %}
 {% api-method-response-example-description %}
 🗃️ Veri tabanı hatası
 {% endapi-method-response-example-description %}
