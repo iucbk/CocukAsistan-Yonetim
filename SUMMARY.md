@@ -13,6 +13,7 @@
     * [👤 User Router](back-end/api-dokuemani/user-router.md)
     * [📃 Quiz Router](back-end/api-dokuemani/quiz-router.md)
     * [📦 Object Router](back-end/api-dokuemani/object-router.md)
+    * [🔔 Tip Router](back-end/api-dokuemani/tip-router.md)
 * [📱 Mobil](mobil/README.md)
   * [🌱 Genel](mobil/mobil1.md)
   * [👩‍⚖️ Kararlar](mobil/kararlar.md)
