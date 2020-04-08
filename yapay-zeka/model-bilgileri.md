@@ -46,7 +46,7 @@ print(interpreter.get_output_details()[0]['dtype'])
 # çıkış boyutu
 [ 1 10  4]
 
-# çıkış tipi
+# çıkış türü
 <class 'numpy.float32'>
 ```
 
