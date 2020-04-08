@@ -33,14 +33,20 @@ print(interpreter.get_output_details()[0]['dtype'])
 #### 📥 Giriş Bilgileri
 
 ```python
+# giriş boyutu
 [  1 300 300   3]
+
+# giriş türü 
 <class 'numpy.uint8'>
 ```
 
 #### 📤 Çıkış Bilgileri
 
 ```python
+# çıkış boyutu
 [ 1 10  4]
+
+# çıkış tipi
 <class 'numpy.float32'>
 ```
 
