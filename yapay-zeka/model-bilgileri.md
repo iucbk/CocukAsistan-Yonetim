@@ -9,5 +9,38 @@
 | 🏷️ `label_map` dosyası | [Burada](https://github.com/asmaamirkhan/CocukAsistan-AI/blob/master/Karma/label_map.pbtxt) |
 | 🤖 `.tflite` dosyası | [Burada](https://github.com/asmaamirkhan/CocukAsistan-AI/blob/master/Model/tflite/ssd_quant_v1_25.tflite) |
 
-## 
+## 👮‍♂️ Giriş Çıkış Bilgileri
+
+### 👨‍💻 Elde etme scripti
+
+```python
+import tensorflow as tf
+
+interpreter = tf.lite.Interpreter(model_path="ssd_quant_v1_25.tflite")
+interpreter.allocate_tensors()
+
+# Print input shape and type
+print(interpreter.get_input_details()[0]['shape'])
+print(interpreter.get_input_details()[0]['dtype'])
+
+# Print output shape and type
+print(interpreter.get_output_details()[0]['shape'])
+print(interpreter.get_output_details()[0]['dtype'])
+```
+
+### 🚪 Çıktı
+
+#### 📥 Giriş Bilgileri
+
+```python
+[  1 300 300   3]
+<class 'numpy.uint8'>
+```
+
+#### 📤 Çıkış Bilgileri
+
+```python
+[ 1 10  4]
+<class 'numpy.float32'>
+```
 
