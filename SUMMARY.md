@@ -23,4 +23,5 @@
 * [🤖 Yapay Zeka](yapay-zeka/README.md)
   * [🌱 Genel](yapay-zeka/yapay1.md)
   * [👩‍⚖️ Kararlar](yapay-zeka/kararlar.md)
+  * [🤖 Model Bilgileri](yapay-zeka/model-bilgileri.md)
 
